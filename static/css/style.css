@@ -47,6 +47,22 @@
     scroll-behavior: smooth;
   }
 }
+  .image-wrapper {
+    text-align: center;
+    padding: 10px;
+  }
+
+  .custom-carousel-img {
+    width: 80%; /* Reduce image width */
+    height: auto;
+    border: 5px solid #789e8c; /* Green border or any color you prefer */
+    border-radius: 12px; /* Rounded corners */
+  }
+
+  .carousel-caption p {
+    color: #004d40; /* Change caption font color */
+  }
+
 body {
   margin: 0;
   font-family: var(--bs-font-sans-serif);
